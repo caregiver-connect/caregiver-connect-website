@@ -1,5 +1,7 @@
 
 <h1 align="center">Our Goals</h1>
-                test test
+&nbsp;&nbsp;&nbsp;&nbsp; Our goal with Caregiver Connect is to create a service that would allow dementia patients and their caregivers the ability to search for caregiving services around them in the state of Alabama.
 
-test test
+
+
+<h2 align="center">About Us</h2>
