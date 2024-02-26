@@ -5,7 +5,7 @@ to be able to post any services that they find to Caregiver Connect.
 
 
 <h2 align="center">Presentation and Code</h2>
-[test](https://github.com/caregiver-connect/caregiver-connect)
+[Click to view code.](https://github.com/caregiver-connect/caregiver-connect)
 
 
 <h2 align="center">About Us</h2>
