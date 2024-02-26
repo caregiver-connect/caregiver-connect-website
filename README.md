@@ -1,3 +1,2 @@
-<p align="center">
-# Our Goals
-</p>
+
+<h1 align="center">Our Goals</h1>
