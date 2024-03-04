@@ -15,7 +15,7 @@ to be able to post any services that they find to Caregiver Connect.
 <h3 align="center">Logan Ladnier</h3>
 
 <h3 align="center">Brent Christian</h3>
-I am senior studying math and computer science as well as working on my master's degree in cs through AMP.
+<p align="center" style="margin: -10px 0 20px 0;">I am a senior studying math and computer science as well as working on my master's degree in CS through AMP.</p>
 <h3 align="center">Mithul Nallaka</h3>
 
 <h3 align="center">Jacob Curren</h3>
