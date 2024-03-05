@@ -13,7 +13,7 @@ to be able to post any services that they find to Caregiver Connect.
 <h2 align="center">About Us</h2>
 
 <h3 align="center">Logan Ladnier</h3>
-<p align="center" style="margin: -10px 0 20px 0;">I am a senior studying Computer Science and Math with a minor in Electrical Engineering. I will also be graduating with a Masters in Computer Science. My interests include software engineering and embedded systems engineering.</p>
+<p align="center" style="margin: -10px 0 20px 0;">I am a senior studying Computer Science and Math with a minor in Electrical Engineering. I will also be graduating with a Masters in Computer Science. My interests include software engineering and embedded systems engineering. I can be contacted at lcladnier@crimson.ua.edu</p>
 
 <h3 align="center">Brent Christian</h3>
 <p align="center" style="margin: -10px 0 20px 0;">I am a senior studying math and computer science as well as working on my master's degree in CS through AMP.</p>
