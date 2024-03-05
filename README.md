@@ -22,3 +22,4 @@ to be able to post any services that they find to Caregiver Connect.
 <p align="center" style="margin: -10px 0 20px 0;">Hello! I'm Mithul and I'm a senior studying Computer Science and Biochemistry on the Pre-Med track. I'm looking forward to using technology to shape the future of healthcare.</p>
 
 <h3 align="center">Jacob Curren</h3>
+<p align="center" style="margin: -10px 0 20px 0;">I am a senior studying Computer Science. I will be graduating this semester with a bachelor's degree. I can be contacted at jwcurren@crimson.ua.edu</p>
