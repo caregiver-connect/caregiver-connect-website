@@ -8,6 +8,7 @@ to be able to post any services that they find to Caregiver Connect.
 [Click to view code.](https://github.com/caregiver-connect/caregiver-connect)
 
 [Sprint 1 Presentation.](https://docs.google.com/presentation/d/1_thqBdY25fl19qdwpz-_1uIeUIzq8nOBMN4Q-_7fEos/edit?usp=sharing)
+[Sprint 2 Presentation.](https://docs.google.com/presentation/d/1YA5GQ_Ipm-DqST1Csk8MmjwrnBMqo-BcD-LRmM81E3c/edit?usp=sharing)
 
 
 <h2 align="center">About Us</h2>
