@@ -11,6 +11,13 @@ to be able to post any services that they find to Caregiver Connect.
 [Sprint 2 Presentation.](https://docs.google.com/presentation/d/1YA5GQ_Ipm-DqST1Csk8MmjwrnBMqo-BcD-LRmM81E3c/edit?usp=sharing)
 
 
+<h2 align="center">Documentation</h2>
+<h3>Installation</h3>
+<h3>Features</h3>
+<h3>Modifying and Extending the Software</h3>
+<h3>FAQs</h3>
+
+
 <h2 align="center">About Us</h2>
 
 <h3 align="center">Logan Ladnier</h3>
