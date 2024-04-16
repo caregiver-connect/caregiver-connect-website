@@ -13,8 +13,14 @@ to be able to post any services that they find to Caregiver Connect.
 
 <h2 align="center">Documentation</h2>
 <h3>Installation</h3>
+
 <h3>Features</h3>
+
 <h3>Modifying and Extending the Software</h3>
+<h4>Tech Stack</h4>
+<p>The front end uses the Vue framework with Ionic for UI components and themeing. The backend node.js server connects to the postgreSQL database using sequelize.</p>
+<p>All dependencies are listed in the package.json or the Features->External Resources section of this documentation.</p>
+
 <h3>FAQs</h3>
 
 
