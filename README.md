@@ -15,6 +15,8 @@ to be able to post any services that they find to Caregiver Connect.
 <h3>Installation</h3>
 
 <h3>Features</h3>
+<h4 align ="center">Core Features</h4>
+<p> Our core features consist of user signup, user login, adding a provider, and editing/deleting a provider</p>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
