@@ -88,16 +88,18 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <p>Test cases are located in ./tests/testcases.md</p>
 
 <h4 align="center">Bugs and Possible New Features</h4>
-<p>Known bugs:</p>
+<p>Known bugs and security issues:</p>
 <ul>
   <li>When the docker containers are created and ran for the first time, the nodejs backend server errors and fails.</li>
   <li>Reseting a password hashes the password but the salting is different so the user cannot login again after the reset.</li>
   <li>Sendgrid won't send emails to crimson.ua.edu emails (this may not be able to be fixed)</li>
-  <li></li>
+  <li>Building the application with Ionic build does not work.</li>
+  <li>Https is not implemented.</li>
+  <li>CSRF middleware does not work to protect against CSRF attacks.</li>
 </ul>
 <p>Possible features to add:</p>
 <ul>
-  <li>Adding an unverified edits table to allow users to edit/delete providers. Edits would then be voted on by the community.</li>
+  <li>Adding an unverified edits table to allow users to edit/delete providers. Edits would then be voted on by the community and applied to the table after a certain number of approvals are recieved. This would require extensive edits to the database schema and creation of a new database table. Merge conflicts would also have to be resolved.</li>
   <li>Automatic periodic backups of the database.</li>
   <li>Automatic loading of the database from a backup/file.</li>
   <li>Seperate services table with more details on the services a provider offers.</li>
