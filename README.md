@@ -66,6 +66,8 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <p>For adding a provider, the user first needs to be logged in. Then the user can click on the "Find Providers" button on the home page and then click the plus button in the bottom right of the "Find Providers" page, or the user can click on the "Add Providers" button on the home page. The user then needs to input the required information about the provider and once submitted will then be visible on the "Find Providers" page</p>
 <h5 align ="center">Editing/Deleting a Provider</h5>
 <p>For editing a provider, the user must be logged in as an admin. To edit a provider the user can go to the "Find Providers" page, scroll all the way to the right, hit the edit button, and then input the desired edits. To delete a provider the user must go to the "Find Providers" page, scroll all the way to the right, and then click the delete button.</p>
+<h5 align ="center">Searching Through the Provider Table</h5>
+<p>For searching through the provider table, the user needs to go to the "Find Providers" page, at the top of the page there is a search bar where the user can input what they want to search and then click the search button. After clicking the search button, after putting in their input, the provider table will list all the providers that contain the input.</p>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
