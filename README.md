@@ -99,11 +99,13 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 </ul>
 <p>Possible features to add:</p>
 <ul>
-  <li>Adding an unverified edits table to allow users to edit/delete providers. Edits would then be voted on by the community and applied to the table after a certain number of approvals are recieved. This would require extensive edits to the database schema and creation of a new database table. Merge conflicts would also have to be resolved.</li>
+  <li>Adding an unverified edits table to allow users to edit/delete providers. Edits would then be approved or denied by the community and applied to the provider table after a certain number/ratio of approvals are recieved. This would require extensive edits to the database schema and creation of a new database table. Merge conflicts would also have to be resolved.</li>
   <li>Automatic periodic backups of the database.</li>
   <li>Automatic loading of the database from a backup/file.</li>
   <li>Seperate services table with more details on the services a provider offers.</li>
   <li>Ability to delete a user.</li>
+  <li>Ability for users to indicate when they use a provider or service and see the number of users that have used a provider or resource recently.</li>
+  <li>SMS messaging for phone number verification.</li>
 </ul>
 
 <h3>FAQs</h3>
