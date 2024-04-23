@@ -19,6 +19,10 @@ to be able to post any services that they find to Caregiver Connect.
 <p> Our core features consist of user signup, user login, adding a provider, editing/deleting a provider, searching through the provider table, sending users verification emails, ability to reset password, and an admin page to view users and change user roles.</p>
 <h5 align ="center">User Signup</h5>
 <p>For user signup, the user clicks on the "signup" button in the top right of the home page. The user then inputs the required information. The user will then both be added to the user database and will recieve a verification email in the email they provided.</p>
+<h5 align ="center">User Login</h5>
+<p>For user login, the user clicks on the "login" button in the top right of the home page and then inputs their username and password. The user is then allowed to access features available to logged in users (adding providers).</p>
+<h5 align ="center">Adding a Provider</h5>
+<p>For adding a provider, the user first needs to be logged in. Then the user can click on the "Find Providers" button on the home page and then click the plus button in the bottom right of the "Find Providers" page, or the user can click on the "Add Providers" button on the home page. The user then needs to input the required information about the provider and once submitted will then be visible on the "Find Providers" page</p>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
