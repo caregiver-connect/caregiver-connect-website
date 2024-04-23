@@ -110,8 +110,8 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 
 <h3>FAQs</h3>
 <ul>
-  <li><b>Q:</b> Do I need to make an account to use the website? <br> <b>A:</b> An account is only required if you want to add providers to the website and become a contribuer. YOu can find providers near you by clicking the "Find Providers" button on the homepage. </li>
-  <li><b>Q:</b> What if I need to make an edit to a provider I have added? <br> <b>A:</b> Editing privileges are only given to Adimns, and they will moderate the website.</li>
+  <li><b>Q:</b> Do I need to make an account to use the website? <br> <b>A:</b> An account is only required if you want to add providers to the website and become a contribuer. You can find providers near you by clicking the "Find Providers" button on the homepage. </li>
+  <li><b>Q:</b> What if I need to make an edit to a provider I have added? <br> <b>A:</b> Editing privileges are only given to admins, and they will moderate the website.</li>
   <li><b>Q</b>: Who is this website made for? <br> <b>A:</b> This website is made to assist senior citizens and dementia patients with finding caregivers near them. People who want to contribute can add any caregivers they know, even themselves, to the website.</li>
  <li><b>Q</b>: How do I know if the information is correct? <br> <b>A:</b> Admins will moderate the website and scan for entries with incorrect information.</li>
 </ul>
