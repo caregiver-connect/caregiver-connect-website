@@ -90,14 +90,18 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <h4 align="center">Bugs and Possible New Features</h4>
 <p>Known bugs:</p>
 <ul>
-  <li>When the docker containers are created and ran for the first time the nodejs backend server errors and fails.</li>
-  <li>Reset password hashes the password but the salting is different so the user cannot login again after reseting a password.</li>
-  <li>Sendgrid won't send emails to crimson.ua.edu emails (this may or may not be able to be fixed)</li>
+  <li>When the docker containers are created and ran for the first time, the nodejs backend server errors and fails.</li>
+  <li>Reseting a password hashes the password but the salting is different so the user cannot login again after the reset.</li>
+  <li>Sendgrid won't send emails to crimson.ua.edu emails (this may not be able to be fixed)</li>
   <li></li>
 </ul>
 <p>Possible features to add:</p>
 <ul>
-  <li></li>
+  <li>Adding an unverified edits table to allow users to edit/delete providers. Edits would then be voted on by the community.</li>
+  <li>Automatic periodic backups of the database.</li>
+  <li>Automatic loading of the database from a backup/file.</li>
+  <li>Seperate services table with more details on the services a provider offers.</li>
+  <li>Ability to delete a user.</li>
 </ul>
 
 <h3>FAQs</h3>
