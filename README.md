@@ -44,7 +44,7 @@ GEOAPIFY_API_KEY=
 TOKEN_SECRET=
 ```
 
-Following each environment variable, define the intended value for the login information and provide the API keys for Sendgrid and Geoapify.
+Following each environment variable, define the intended value for the login information and provide the API keys for Sendgrid and Geoapify. For hosting on a local machine, set `HOSTNAME` equal to `http://localhost`. For hosting on a server, change localhost to the servers domain name.
 
 Then, [install docker](https://docs.docker.com/get-docker/) and in the root directory, run `docker compose up`. This command should automatically pull the database, Postgres, Nginx, and openssl containers and build the front and back end before launching the complete stack. The stack can then be taken down with `docker compose down`.
 
@@ -69,6 +69,20 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <h4 align="center">Tech Stack</h4>
 <p>The front end uses the Vue framework with Ionic for UI components and themeing. The backend node.js server connects to the postgreSQL database using sequelize.</p>
 <p>All dependencies are listed in the package.json or the Features->External Resources section of this documentation.</p>
+
+<h4 align="center">Modifying Existing software</h4>
+<p>To modify different parts of the project look in the following files and directories:</p>
+<ul>
+  <li>Vue/Ionic Frontend: ./src</li>
+  <li>Backend NodeJS server: ./provider-nodejs</li>
+  <li>Docker Configuration: ./docker-compose.yml, ./docker-compose-postgres.yml (for postgres database container), ./Dockerfile (For frontend containter), ./provider-nodejs/Dockerfile (for backend nodejs container)</li>
+</ul>
+
+<h4 align="center">Styling</h4>
+<p>Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change.</p>
+
+<P>Most automated testing is done through a semaphore workflow, focusing on build testing. There is also the opportunity to expand on this testing in the future by adding a JWT containerized testing platform to the Semaphore workflow. The current build testing platform allows for independent build testing of both the front and back ends. This build testing involves creating a new container, installing all the necessary dependencies, building the project with npm, then installing the container and running it for a short period to ensure it is properly built without any errors. The build testing is also directly integrated with Github for continuous integration. Every commit is build-checked using the semaphore workflow and indicates whether or not the build has passed. Individual build workflows can be defined in the future for new branches or components simply by editing the semaphore workflow page.</P>
+
 
 <h3>FAQs</h3>
 
