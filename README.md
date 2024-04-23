@@ -64,6 +64,8 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <p>For user login, the user clicks on the "login" button in the top right of the home page and then inputs their username and password. The user is then allowed to access features available to logged in users (adding providers).</p>
 <h5 align ="center">Adding a Provider</h5>
 <p>For adding a provider, the user first needs to be logged in. Then the user can click on the "Find Providers" button on the home page and then click the plus button in the bottom right of the "Find Providers" page, or the user can click on the "Add Providers" button on the home page. The user then needs to input the required information about the provider and once submitted will then be visible on the "Find Providers" page</p>
+<h5 align ="center">Editing/Deleting a Provider</h5>
+<p>For editing a provider</p>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
