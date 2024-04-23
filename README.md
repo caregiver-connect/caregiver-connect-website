@@ -31,6 +31,8 @@ POSTGRES_HOST_AUTH_METHOD=trust
 POSTGRES_DB=
 
 # BACKEND & SENDGRID
+HOSTNAME=
+SECRETKEY=
 DB_SCHEMA=
 DB_USER=
 DB_PASSWORD=
@@ -44,9 +46,11 @@ TOKEN_SECRET=
 
 Following each environment variable, define the intended value for the login information and provide the API keys for Sendgrid and Geoapify.
 
-Then, in the root directory, run `docker compose up`. This command should automatically pull the database, Postgres, Nginx, and openssl containers and build the front and back end before launching the complete stack. The stack can then be taken down with `docker compose down`.
+Then, [install docker](https://docs.docker.com/get-docker/) and in the root directory, run `docker compose up`. This command should automatically pull the database, Postgres, Nginx, and openssl containers and build the front and back end before launching the complete stack. The stack can then be taken down with `docker compose down`.
 
 To improve the ease of use and handle challenges with image rebuilds and relaunching the tech stack, several scripts have also been provided in the repository for easy execution of common functions. These scripts allow the stack to be launched, relaunched and closed using `docker-launch.sh`, `docker-relauch.sh`, and `docker-close.sh`.
+
+Note: It seems that in most cases the first time the docker containers are brought up there is an error with the caregiver-backend container. Just take the containers down with `docker compose down` and bring them back up with `docker compose up`.
 
 <h4 align ="center">External Dependency Notice</h4>
 As mentioned earlier, this application makes significant use of the Sendgrid and Geoapify APIs, and will not maintain complete function without these dependencies. Both offer limited free tiers of their APIs, which should allow for initial implementation and experimentation, but we suggest purchasing a more sufficient license to meet the request needs of the implemented application and to follow licensing rules and regulations in production.
