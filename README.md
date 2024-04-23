@@ -17,6 +17,7 @@ to be able to post any services that they find to Caregiver Connect.
 <h3>Features</h3>
 <h4 align ="center">Core Features</h4>
 <p> Our core features consist of user signup, user login, adding a provider, editing/deleting a provider, searching through the provider table, sending users verification emails, ability to reset password, and an admin page to view users and change user roles.</p>
+<h5 align ="center">User Signup</h5>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
