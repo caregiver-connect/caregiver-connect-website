@@ -72,7 +72,7 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <p>The front end uses the Vue framework with Ionic for UI components and themeing. The backend node.js server connects to the postgreSQL database using sequelize.</p>
 <p>All dependencies are listed in the ./package.json, ./provider-nodejs/package.json or the Features->External Resources section of this documentation.</p>
 
-<h4 align="center">Modifying Existing software</h4>
+<h4 align="center">Modifying Existing Software</h4>
 <p>To modify different parts of the project look in the following files and directories:</p>
 <ul>
   <li>Vue/Ionic Frontend: ./src</li>
@@ -87,6 +87,18 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <p>Most automated testing is done through a semaphore workflow, focusing on build testing. There is also the opportunity to expand on this testing in the future by adding a JWT containerized testing platform to the Semaphore workflow. The current build testing platform allows for independent build testing of both the front and back ends. This build testing involves creating a new container, installing all the necessary dependencies, building the project with npm, then installing the container and running it for a short period to ensure it is properly built without any errors. The build testing is also directly integrated with Github for continuous integration. Every commit is build-checked using the semaphore workflow and indicates whether or not the build has passed. Individual build workflows can be defined in the future for new branches or components simply by editing the semaphore workflow page.</p>
 <p>Test cases are located in ./tests/testcases.md</p>
 
+<h4 align="center">Bugs and Possible New Features</h4>
+<p>Known bugs:</p>
+<ul>
+  <li>When the docker containers are created and ran for the first time the nodejs backend server errors and fails.</li>
+  <li>Reset password hashes the password but the salting is different so the user cannot login again after reseting a password.</li>
+  <li>Sendgrid won't send emails to crimson.ua.edu emails (this may or may not be able to be fixed)</li>
+  <li></li>
+</ul>
+<p>Possible features to add:</p>
+<ul>
+  <li></li>
+</ul>
 
 <h3>FAQs</h3>
 <ul>
