@@ -9,6 +9,7 @@ to be able to post any services that they find to Caregiver Connect.
 
 [Sprint 1 Presentation.](https://docs.google.com/presentation/d/1_thqBdY25fl19qdwpz-_1uIeUIzq8nOBMN4Q-_7fEos/edit?usp=sharing)
 [Sprint 2 Presentation.](https://docs.google.com/presentation/d/1YA5GQ_Ipm-DqST1Csk8MmjwrnBMqo-BcD-LRmM81E3c/edit?usp=sharing)
+[Sprint 3 Presentation.](https://docs.google.com/presentation/d/1t7bWfc4SZc868H2hnkXAJyKo34jM_cEnY0eT2WhSIRk/edit#slide=id.g2cf2a67421e_0_25).
 
 
 <h2 align="center">Documentation</h2>
