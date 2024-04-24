@@ -76,7 +76,7 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <h5 align ="center">Admin Page</h5>
 <p>For the admin page, the user must first be logged in as an admin and they then can edit the url from /home to /admin-page (if any other user goes to this url it will not show any users). On the admin page, the user can view all created users and can edit their roles.</p>
 <h4 align ="center">External Resources</h4>
-<p>In Caregiver Connect we use two outside resources, GEOAPIFY and SENDGRID. We use GEOAPIFY when we add providers into the database to help insure that the address/location the user input for the provider is correct. We use SENDGRID for our emails with user verification and password resets.</p>
+<p>In Caregiver Connect we use two outside resources, GEOAPIFY and SENDGRID. We use GEOAPIFY when we add providers into the database to help insure that the address/location the user inputs for the provider is correct. We use SENDGRID for our emails with user verification and password resets.</p>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
