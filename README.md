@@ -68,6 +68,10 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
 <p>For editing a provider, the user must be logged in as an admin. To edit a provider the user can go to the "Find Providers" page, scroll all the way to the right, hit the edit button, and then input the desired edits. To delete a provider the user must go to the "Find Providers" page, scroll all the way to the right, and then click the delete button.</p>
 <h5 align ="center">Searching Through the Provider Table</h5>
 <p>For searching through the provider table, the user needs to go to the "Find Providers" page, at the top of the page there is a search bar where the user can input what they want to search and then click the search button. After clicking the search button, after putting in their input, the provider table will list all the providers that contain the input.</p>
+<h5 align ="center">Sending Verification Emails</h5>
+<p>For sending verification emails, once the user creates an account an email with a link to verify their account will be sent to the provided email.</p>
+<h5 align ="center">Reseting Password</h5>
+<p>For reseting a users password, the user can navigate to the "login" page and click the forgot password. After inputing your username and email, an email will be sent to the users email with a link taking the user to the reset password page where they can then put in a new password.</p>
 
 <h3>Modifying and Extending the Software</h3>
 <h4 align="center">Tech Stack</h4>
