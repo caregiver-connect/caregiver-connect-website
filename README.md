@@ -117,6 +117,8 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
   <li>Ability to delete a user.</li>
   <li>Ability for users to indicate when they use a provider or service and see the number of users that have used a provider or resource recently.</li>
   <li>SMS messaging for phone number verification.</li>
+  <li>Emailing providers to encourage them to make edits/updates to their own information on services they provide.</li>
+  <li>Map with providers.</li>
 </ul>
 
 <h3>FAQs</h3>
