@@ -123,6 +123,7 @@ As mentioned earlier, this application makes significant use of the Sendgrid and
   <li><b>Q:</b> What if I need to make an edit to a provider I have added? <br> <b>A:</b> Editing privileges are only given to admins, and they will moderate the website.</li>
   <li><b>Q</b>: Who is this website made for? <br> <b>A:</b> This website is made to assist senior citizens and dementia patients with finding caregivers near them. People who want to contribute can add any caregivers they know, even themselves, to the website.</li>
  <li><b>Q</b>: How do I know if the information is correct? <br> <b>A:</b> Admins will moderate the website and scan for entries with incorrect information.</li>
+  <li><b>Q</b>: How do I access the admin page? <br> <b>A:</b> Currently, there is no button to navigate to the admin page. However, you can still access it by using the url http://cs495-spring2024-09.ua.edu/admin-page</li>
 </ul>
 
 
