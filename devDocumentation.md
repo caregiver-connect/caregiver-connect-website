@@ -1,11 +1,15 @@
 # Developer Documentation
 
 ## Installing and Deploying Caregiver Connect
-Overview
+### Overview
+
 Caregiver Connect is built on a scalable and easy-to-use infrastructure, allowing for easy installation, modification, and deployment. By leveraging containerization technologies, Caregiver Connect provides a simple platform for deploying Caregiver Connect applications and services.
 Necessary Hardware/Software
+
 The Caregiver Connect technology stack is designed to work on a single web-connected machine, whether a self-hosted server or a cloud-deployable host. Regardless of the hosting platform, please ensure that a secure and up-to-date version of your preferred operating system has been installed, along with Docker, Docker Compose, and all the necessary dependencies. This project also makes heavy use of the Geoapify and Sendgrid APIS, so API keys for both dependencies will need to be obtained. Following the installation of these dependencies, ensure that at least one port on the hosting machine is accessible, as this will be the port from which the front-end web pages are served. This requirement may be skipped via a reverse proxy, such as Nginx, following external guidance.
-Installation
+
+### Installation
+
 The installation and use of Caregiver Connect have been designed to be simple. To do so, simply clone the caregiver-connect repository (https://github.com/caregiver-connect/caregiver-connect) on the host machine. Then, the required environment variables must be assigned. To do this, create the file .env in the root directory of the project and copy the following environment variables format:
 ```
 # DATABASE
