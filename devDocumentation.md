@@ -40,28 +40,28 @@ Note: It seems that in most cases the first time the docker containers are broug
 As mentioned earlier, this application makes significant use of the Sendgrid and Geoapify APIs, and will not maintain complete function without these dependencies. Both offer limited free tiers of their APIs, which should allow for initial implementation and experimentation, but we suggest purchasing a more sufficient license to meet the request needs of the implemented application and to follow licensing rules and regulations in production.
 
 
-Modifying and Extending the Software
-Tech Stack
+# Modifying and Extending the Software
+## Tech Stack
 The front end uses the Vue framework with Ionic for UI components and themeing. The backend node.js server connects to the postgreSQL database using sequelize.
 
-All dependencies are listed in the ./package.json, ./provider-nodejs/package.json or the Features->External Resources section of this documentation.
+All dependencies are listed in the ./package.json, ./provider-nodejs/package.json section of this documentation. We also depend on the geoapify and sendgrid APIs as mentioned in the installation section.
 
-Modifying Existing Software
+## Modifying Existing Software
 To modify different parts of the project look in the following files and directories:
-
+```
 Vue/Ionic Frontend: ./src
 Backend NodeJS server: ./provider-nodejs
 Docker Configuration: ./docker-compose.yml, ./docker-compose-postgres.yml (for postgres database container), ./Dockerfile (For frontend containter), ./provider-nodejs/Dockerfile (for backend nodejs container)
 Styling
 Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change.
-
-Testing
+```
+## Testing
 Most automated testing is done through a semaphore workflow, focusing on build testing. There is also the opportunity to expand on this testing in the future by adding a JWT containerized testing platform to the Semaphore workflow. The current build testing platform allows for independent build testing of both the front and back ends. This build testing involves creating a new container, installing all the necessary dependencies, building the project with npm, then installing the container and running it for a short period to ensure it is properly built without any errors. The build testing is also directly integrated with Github for continuous integration. Every commit is build-checked using the semaphore workflow and indicates whether or not the build has passed. Individual build workflows can be defined in the future for new branches or components simply by editing the semaphore workflow page.
 
 Test cases are located in ./tests/testcases.md
 
-Bugs and Possible New Features
-Known bugs and security issues:
+## Bugs and Possible New Features
+### Known bugs and security issues:
 
 When the docker containers are created and ran for the first time, the nodejs backend server errors and fails.
 Reseting a password hashes the password but the salting is different so the user cannot login again after the reset.
@@ -69,7 +69,9 @@ Sendgrid won't send emails to crimson.ua.edu emails (this may not be able to be 
 Building the application with Ionic build does not work.
 Https is not implemented.
 CSRF middleware does not work to protect against CSRF attacks.
-Possible features to add:
+
+
+### Possible features to add:
 
 Adding an unverified edits table to allow users to edit/delete providers. Edits would then be approved or denied by the community and applied to the provider table after a certain number/ratio of approvals are recieved. This would require extensive edits to the database schema and creation of a new database table. Merge conflicts would also have to be resolved.
 Automatic periodic backups of the database.
