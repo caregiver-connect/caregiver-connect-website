@@ -68,7 +68,7 @@ Test cases are located in ./tests/testcases.md
 - Sendgrid won't send emails to crimson.ua.edu emails (this may not be able to be fixed)
 - Building the application with Ionic build does not work.
 - Https is not implemented.
-- CSRF middleware does not work to protect against CSRF attacks.
+- CSRF middleware does not work to protect against Cross Site Request Forgery attacks.
 
 
 ### Possible features to add:
