@@ -35,5 +35,6 @@ To improve the ease of use and handle challenges with image rebuilds and relaunc
 
 Note: It seems that in most cases the first time the docker containers are brought up there is an error with the caregiver-backend container. Just take the containers down with docker compose down and bring them back up with docker compose up.
 
-External Dependency Notice
+External Dependency Notice:
+
 As mentioned earlier, this application makes significant use of the Sendgrid and Geoapify APIs, and will not maintain complete function without these dependencies. Both offer limited free tiers of their APIs, which should allow for initial implementation and experimentation, but we suggest purchasing a more sufficient license to meet the request needs of the implemented application and to follow licensing rules and regulations in production.
