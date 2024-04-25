@@ -17,9 +17,12 @@ to post any services that they find on Caregiver Connect.
 
 <h2 align="center">Documentation</h2>
 <h3>Installing and Deploying Caregiver Connect</h3>
+
 <h4 align ="center">Overview</h4>
 Caregiver Connect is built on a scalable and easy-to-use infrastructure, allowing for easy installation, modification, and deployment. By leveraging containerization technologies, Caregiver Connect provides a simple platform for deploying Caregiver Connect applications and services.
+
 <h4 align ="center">Necessary Hardware/Software</h4>
+
 The Caregiver Connect technology stack is designed to work on a single web-connected machine, whether a self-hosted server or a cloud-deployable host. Regardless of the hosting platform, please ensure that a secure and up-to-date version of your preferred operating system has been installed, along with Docker, Docker Compose, and all the necessary dependencies. This should be completed automatically. This project also makes heavy use of the <a href="https://apidocs.geoapify.com/#docs">Geoapify</a> and <a href="https://docs.sendgrid.com/for-developers/sending-email/api-getting-started">Sendgrid</a> APIS, so API keys for both dependencies will need to be obtained. Following the installation of these dependencies, ensure that at least one port on the hosting machine is accessible, as this will be the port from which the front-end web pages are served. Following external guidance, this requirement may be skipped via a reverse proxy, such as <a href="https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/"> Nginx.</a>
 
 
@@ -95,6 +98,10 @@ As mentioned, this application makes significant use of the Sendgrid and Geoapif
   <li>Backend NodeJS server: ./provider-nodejs</li>
   <li>Docker Configuration: ./docker-compose.yml, ./docker-compose-postgres.yml (for postgres database container), ./Dockerfile (For frontend containter), ./provider-nodejs/Dockerfile (for backend nodejs container)</li>
 </ul>
+
+<h4 align="center">Email Handler</h4>
+Several handlers and controllers have been made to make interacting with email simple. To send emails, import /provider-nodejs/app/sendgrid/email-handler.js in the intended module, define a message as described in the file, and use the handler to submit the message to a selected email.
+
 
 <h4 align="center">Styling</h4>
 <p>Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change.</p>
