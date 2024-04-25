@@ -63,7 +63,9 @@ To modify different parts of the project look in the following files and directo
 ### Hard Coded Values
 - pageSize in ./src/views/ProviderSearch.vue and ./src/views/AdminPage.vue controls how many database entries show on each page of the provider search and admin pages.
 - The website hostname is hardcoded in the whitelist variable in ./provider-nodejs/server.js that is then used for CORS options.
-- The list of services that can be checked as offered by a provider is hard coded in `./src/views/AddProvider.vue` and `./src/views/EditProvider.vue` in the allServices dictionary in data(). To edit these you can add a specific service to a service type within the services_with_other or services_without_other in allServices. To add a service type without an `other` checkbox simply add it as a dictionary to the services_without_other object. To add a service type with an `other` checkbox do the same with the services_with_other except be sure to add a key value pair for `other_checked` and `specific`
+- The list of services that can be checked as offered by a provider is hard coded in `./src/views/AddProvider.vue` and `./src/views/EditProvider.vue` in the allServices dictionary in data(). To edit these you can add a specific service to a service type within the services_with_other or services_without_other in allServices. To add a service type without an `other` checkbox simply add it as a dictionary to the services_without_other object. To add a service type with an `other` checkbox do the same with the services_with_other except be sure to add a key value pair for `other_checked` and `specific`.
+- The initial value for user roles is assigned in ./provider-nodejs/app/controllers/user.controller.js when the user variable is created in the create function.
+- The options for user roles is hard coded in the ion-popover html element in ./src/views/AdminPage.vue
 
 ## Styling
 Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change. Themeing as well as global CSS is found in ./src/theme/variables.css
