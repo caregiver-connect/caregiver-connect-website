@@ -63,30 +63,22 @@ Test cases are located in ./tests/testcases.md
 ## Bugs and Possible New Features
 ### Known bugs and security issues:
 
-When the docker containers are created and ran for the first time, the nodejs backend server errors and fails.
-Reseting a password hashes the password but the salting is different so the user cannot login again after the reset.
-Sendgrid won't send emails to crimson.ua.edu emails (this may not be able to be fixed)
-Building the application with Ionic build does not work.
-Https is not implemented.
-CSRF middleware does not work to protect against CSRF attacks.
+- When the docker containers are created and ran for the first time, the nodejs backend server errors and fails.
+- Reseting a password hashes the password but the salting is different so the user cannot login again after the reset.
+- Sendgrid won't send emails to crimson.ua.edu emails (this may not be able to be fixed)
+- Building the application with Ionic build does not work.
+- Https is not implemented.
+- CSRF middleware does not work to protect against CSRF attacks.
 
 
 ### Possible features to add:
 
-Adding an unverified edits table to allow users to edit/delete providers. Edits would then be approved or denied by the community and applied to the provider table after a certain number/ratio of approvals are recieved. This would require extensive edits to the database schema and creation of a new database table. Merge conflicts would also have to be resolved.
-
-Automatic periodic backups of the database.
-
-Automatic loading of the database from a backup/file.
-
-Seperate services table with more details on the services a provider offers.
-
-Ability to delete a user.
-
-Ability for users to indicate when they use a provider or service and see the number of users that have used a provider or resource recently.
-
-SMS messaging for phone number verification.
-
-Emailing providers to encourage them to make edits/updates to their own information on services they provide.
-
-Map with providers.
+- Adding an unverified edits table to allow users to edit/delete providers. Edits would then be approved or denied by the community and applied to the provider table after a certain number/ratio of approvals are recieved. This would require extensive edits to the database schema and creation of a new database table. Merge conflicts would also have to be resolved.
+- Automatic periodic backups of the database.
+- Automatic loading of the database from a backup/file.
+- Seperate services table with more details on the services a provider offers.
+- Ability to delete a user.
+- Ability for users to indicate when they use a provider or service and see the number of users that have used a provider or resource recently.
+- SMS messaging for phone number verification.
+- Emailing providers to encourage them to make edits/updates to their own information on services they provide.
+- Map with providers.
