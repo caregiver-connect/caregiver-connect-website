@@ -60,6 +60,11 @@ To modify different parts of the project look in the following files and directo
 - Database schemas for user and provider tables: ./provider-nodejs/app/models
 - Docker Configuration: ./docker-compose.yml, ./docker-compose-postgres.yml (for postgres database container), ./Dockerfile (For frontend containter), ./provider-nodejs/Dockerfile (for backend nodejs container)
 
+### Hard Coded Values
+- pageSize in ./src/views/ProviderSearch.vue and ./src/views/AdminPage.vue controls how many database entries show on each page of the provider search and admin pages.
+- The website hostname is hardcoded in the whitelist variable in ./provider-nodejs/server.js that is then used for CORS options.
+- The list of services that can be checked as offered by a provider is hard coded in `./src/views/AddProvider.vue` and `./src/views/EditProvider.vue` in the allServices dictionary in data(). To edit these you can add a specific service to a service type within 
+
 ## Styling
 Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change. Themeing as well as global CSS is found in ./src/theme/variables.css
 
