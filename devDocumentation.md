@@ -48,13 +48,13 @@ All dependencies are listed in the ./package.json, ./provider-nodejs/package.jso
 
 ## Modifying Existing Software
 To modify different parts of the project look in the following files and directories:
-```
-Vue/Ionic Frontend: ./src
-Backend NodeJS server: ./provider-nodejs
-Docker Configuration: ./docker-compose.yml, ./docker-compose-postgres.yml (for postgres database container), ./Dockerfile (For frontend containter), ./provider-nodejs/Dockerfile (for backend nodejs container)
+
+- Vue/Ionic Frontend: ./src
+- Backend NodeJS server: ./provider-nodejs
+- Docker Configuration: ./docker-compose.yml, ./docker-compose-postgres.yml (for postgres database container), ./Dockerfile (For frontend containter), ./provider-nodejs/Dockerfile (for backend nodejs container)
 Styling
-Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change.
-```
+- Utilize Ionic for UI components to keep styling consistent. The primary and secondary colors swap when changing to dark mode. The crimson color does not change.
+
 ## Testing
 Most automated testing is done through a semaphore workflow, focusing on build testing. There is also the opportunity to expand on this testing in the future by adding a JWT containerized testing platform to the Semaphore workflow. The current build testing platform allows for independent build testing of both the front and back ends. This build testing involves creating a new container, installing all the necessary dependencies, building the project with npm, then installing the container and running it for a short period to ensure it is properly built without any errors. The build testing is also directly integrated with Github for continuous integration. Every commit is build-checked using the semaphore workflow and indicates whether or not the build has passed. Individual build workflows can be defined in the future for new branches or components simply by editing the semaphore workflow page.
 
