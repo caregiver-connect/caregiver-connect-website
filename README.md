@@ -28,7 +28,7 @@ Are you a developer looking to work on Caregiver Connect? Learn more about our p
 I am a senior studying Computer Science and Math with a minor in Electrical Engineering. I will also be graduating with a Masters in Computer Science. My interests include software engineering and embedded systems engineering. I can be contacted at lcladnier@crimson.ua.edu
 
 ### Brent Christian
-I am a senior studying math and computer science as well as working on my master's degree in CS through AMP.
+Hi! I'm Brent and I am a senior studying math and computer science as well as working on my master's degree in computer science through the Accelerated Master's Program (AMP). I will be graduating with my bachelor's degree in math and computer science this spring and will finish my Master's in computer science next fall. Some of my favorite topics in computer science include crytography, network security, and comuter security. I enjoy learning the math behind cryptography and am interested in using my math abilities as well as my computing skills in a cybersecurity position in the future. You can contact me at brentmc16@outlook.com
 
 ### Mithul Nallaka
 Hello! I'm Mithul, a senior studying Computer Science and Biochemistry on the Pre-Med track. I'm looking forward to using technology to shape the future of healthcare.
