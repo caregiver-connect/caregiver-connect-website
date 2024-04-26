@@ -14,7 +14,7 @@ to post any services that they find on Caregiver Connect.
 [Sprint 3 Presentation.](https://docs.google.com/presentation/d/1t7bWfc4SZc868H2hnkXAJyKo34jM_cEnY0eT2WhSIRk/edit#slide=id.g2cf2a67421e_0_25)
 
 ## Complete Feature Demo
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kU1p5HSiwIo/0.jpg)](https://www.youtube.com/watch?v=kU1p5HSiwIo)
+[![Demonstration Video](https://img.youtube.com/vi/kU1p5HSiwIo/0.jpg)](https://www.youtube.com/watch?v=kU1p5HSiwIo)
 
 ## User Documentation
 Are you a user of Caregiver Connect and looking for some guidance about how to use our application? Visit our [User Guide and Documentation](https://caregiver-connect.github.io/caregiver-connect-website/userDocumentation.html)
