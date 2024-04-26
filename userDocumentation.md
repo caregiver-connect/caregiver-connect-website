@@ -6,6 +6,7 @@ Our core general user features consist of user signup, user login, adding a prov
 ### User Signup
 For user signup, the user clicks on the "signup" button in the top right of the home page. The user then inputs the required information. The user will then be added to the user database and receive a verification email in the email they provided. An image of the signup page is shown below, followed by an image of the verification email being sent.
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihbtB_Qz2FF1FrjC5YqmMfZ40EOES2vnoUXXbnqb2aX4oUK5_y8rrbBf9OCpOHugQ1lTA5YX1AZnw8AhT6RFEEEKA6Er4jzg6Q=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbtB_Qz2FF1FrjC5YqmMfZ40EOES2vnoUXXbnqb2aX4oUK5_y8rrbBf9OCpOHugQ1lTA5YX1AZnw8AhT6RFEEEKA6Er4jzg6Q=s1600-rw-v1" /> </a>
 <a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihaaEFmiv1kSy3pGq_1qIoFssbAMFqg-WoJBDEFxvcONO64KteIhGPwmLre5NiqqxBsVPZxIV1GMYhchA2PSu8FxGjE-WQIjWnY=s1600-rw-v1?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaaEFmiv1kSy3pGq_1qIoFssbAMFqg-WoJBDEFxvcONO64KteIhGPwmLre5NiqqxBsVPZxIV1GMYhchA2PSu8FxGjE-WQIjWnY=s1600-rw-v1" /> </a>
 <a href="https://lh3.googleusercontent.com/drive-viewer/AKGpihZ77FUP9U_SzKcnBxWNvI4uu10mEKMa9YUx6S85SV38x-LpWNy0dSB5yTPWzvrn-_RjAuljgPZaojzXuA3GOzchg65iwxGoQW0=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZ77FUP9U_SzKcnBxWNvI4uu10mEKMa9YUx6S85SV38x-LpWNy0dSB5yTPWzvrn-_RjAuljgPZaojzXuA3GOzchg65iwxGoQW0=s2560" /> </a>
 
